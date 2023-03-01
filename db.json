@@ -1,0 +1,30 @@
+{
+    "category": [
+        { 
+            "id": 1, 
+            "name": "notebooks", 
+            "local": "ноутбуки"
+        },
+        { 
+            "id": 2, 
+            "name": "smartphones", 
+            "local": "смартфони"
+        }
+      ],
+    "products": [
+        { 
+            "id": 1, 
+            "title": "product1", 
+            "price": 4000,
+            "category": 1,
+            "img": "prod1.jpg"
+        },
+        { 
+            "id": 2, 
+            "title": "product2", 
+            "price": 3000,
+            "category": 2,
+            "img": "prod2.jpg" 
+        }
+    ]
+  }

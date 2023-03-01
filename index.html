@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a7724a5e96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <ul class="header-menu">
+              <li class="menu-item">
+                <button data-page="shop" class="logo active">
+                  <i class="fa-solid fa-shop"></i> SHOP
+                </button>
+              </li>
+              <li class="menu-item">
+                <button data-page="cart" class="cart">
+                  <i class="fa-solid fa-cart-shopping"></i> CART
+                </button>
+              </li>
+              <li class="menu-item">
+                <button data-page="admin" class="admin">
+                  <i class="fa-solid fa-screwdriver-wrench"></i> ADMIN
+                </button>
+              </li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div id="root" class="main-block"></div>
+        <div class="products">
+            <ul class="product-list">
+                <li class="product">
+                    <button class="category">Ноутбуки</button>
+                    <div class="product-img">
+                        <img src="./img/prod1.jpg" alt="">
+                    </div>
+                    <div class="product-title">Asus</div>
+                    <div class="product-price-block">
+                        <span class="product-price">4000</span>
+                        <button class="product-in-cart">в корзину</button>
+                    </div>
+                </li>
+                <li class="product">
+                    <button class="category">Смартфони</button>
+                    <div class="product-img">
+                        <img src="./img/prod2.jpg" alt="">
+                    </div>
+                    <div class="product-title">Samsung</div>
+                    <div class="product-price-block">
+                        <span class="product-price">3000</span>
+                        <button class="product-in-cart">в корзину</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="footer"></footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
